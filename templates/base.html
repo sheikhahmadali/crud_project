@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crud Project</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="alert alert-danger text-center" >Function Based Crud Project</h2>
+    {%block content%}
+    {%endblock content%}
+</div>
+<script src="{% static 'js/jquery.js'%}"></script>
+<script src="{% static 'js/popper.js'%}"></script>
+<script src="{% static 'js/bootstrap.js'%}"></script>
+<script src="{% static 'js/all.min.js'%}"></script>
+</body>
+</html>
